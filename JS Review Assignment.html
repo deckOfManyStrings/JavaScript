@@ -24,6 +24,25 @@
             console.log("Buzz");
         }
     }
+
+    function countB(string){
+        var beans = 0;
+        for (var i = 0; i < string.length; i++){
+            if(string.charAt(i) == "B") {
+                beans++
+            }
+        }
+        console.log(beans);
+    }
+
+    function countChar(string, countedChar){
+        var beans = 0;
+        for (var i = 0; i < string.length; i++){
+            if(string.charAt(i) == countedChar) {
+                beans++
+            }
+        }
+    }
 </script>
 </body>
 </html>
